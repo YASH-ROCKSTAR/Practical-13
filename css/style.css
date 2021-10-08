@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    min-width: 100%;
+    background-color: lightgrey;
+}
+.container{
+    width: 650px;
+    padding: 10px;
+    background-color: white;
+    margin: 20px auto;
+}
+.tableformat{
+    width: 100%;
+    margin: 0 auto;
+}
+.basic{
+    background-color: lightgreen;
+}
+.plus{
+    background-color: rgb(202, 238, 144);
+}
+.deluex{
+    background-color: rgb(158, 236, 219);
+}
+.pro{
+    background-color: rgb(137, 206, 191);
+}
+.tableformat th ,.tableformat td{
+    width: 150px;
+    padding: 8px 6px;
+    border-right: 2px solid white;
+    border-left: 2px solid white;
+    text-align: center;
+}
+.tableformat th{
+    height: 70px;
+    color: rgb(129, 45, 168);
+    font-size: 30px;
+}
+tbody tr:nth-child(odd),tfoot tr:nth-child(odd){
+    background-color:rgb(240, 240, 200);
+}
+.fa-check{
+    color: green;
+    font-size: 20px;
+}
+.fa-times{
+    color: red;
+    font-size: 20px;
+}
+tfoot tr{
+    line-height: 60px;
+
+}
+a{
+    text-decoration: none;
+    background-color: #64548f;
+    padding: 15px 25px;
+    color: white;
+    border-radius: 10px;
+    font-size: 18px;
+    vertical-align: middle;
+}
+a:hover{
+    background-color: red;
+    transition: 0.4s;
+}
+h2{
+    text-align: center;
+    padding: 5px;
+}
+
